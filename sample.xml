@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Basic>
+  <hasMember>
+    <AportHport id="APT76113">
+      <identifier codeSpace="urn:uuid:">95ed6479-3c99-430a-9e08-151b44180ed4</identifier>
+      <timeSlice>
+        <AportHportTimeSlice id="ID120203">
+          <validTime>
+            <TimePeriod id="ID120204">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>ENAN</designator>
+          <name>ANDOYA</name>
+          <type>AD</type>
+          <privateUse>NO</privateUse>
+          <fieldElevation uom="FT">46</fieldElevation>
+          <servedCity>
+            <City id="ID120202">
+              <name>ANDOYA</name>
+            </City>
+          </servedCity>
+          <AP>
+            <Elevated id="ID120205" srsName="urn:ogc:def:crs:EPSG::4326">
+              <pos>69.2925 16.144167</pos>
+              <elevation uom="FT">46</elevation>
+            </Elevated>
+          </AP>
+        </AportHportTimeSlice>
+      </timeSlice>
+    </AportHport>
+  </hasMember>
+  <hasMember>
+    <VR id="VR77897">
+      <identifier codeSpace="urn:uuid:">bac7e673-e5fe-4277-a0bd-abca493f242e</identifier>
+      <timeSlice>
+        <VRTimeSlice id="ID174739">
+          <validTime>
+            <TimePeriod id="ID174740">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>AND</designator>
+          <name>ANDOYA</name>
+          <magnVariation>6.3</magnVariation>
+          <location>
+            <Elevated id="ID174738" srsName="urn:ogc:def:crs:EPSG::4326">
+              <pos>69.287828 16.141381</pos>
+              <elevation uom="FT">57</elevation>
+            </Elevated>
+          </location>
+        </VRTimeSlice>
+      </timeSlice>
+    </VR>
+  </hasMember>
+  <hasMember>
+    <DE id="DE77897">
+      <identifier codeSpace="urn:uuid:">edd87891-3a24-4bde-a19c-db3536997d78</identifier>
+      <timeSlice>
+        <DETimeSlice id="ID174743">
+          <validTime>
+            <TimePeriod id="ID174744">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>AND</designator>
+          <name>ANDOYA</name>
+          <location>
+            <Elevated id="ID174742" srsName="urn:ogc:def:crs:EPSG::4326">
+              <pos>69.287828 16.141381</pos>
+              <elevation uom="FT">57</elevation>
+            </Elevated>
+          </location>
+        </DETimeSlice>
+      </timeSlice>
+    </DE>
+  </hasMember>
+  <hasMember>
+    <Navd id="Navd77897">
+      <identifier codeSpace="urn:uuid:">264ee943-3f2b-4dd2-bc72-573f50d72449</identifier>
+      <timeSlice>
+        <NavdTimeSlice id="ID174746">
+          <validTime>
+            <TimePeriod id="ID174747">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>AND</designator>
+          <name>ANDOYA</name>
+          <equipment>
+            <component id="ID174741">
+              <theequipment xlink:href="urn:uuid:bac7e673-e5fe-4277-a0bd-abca493f242e" />
+            </component>
+          </equipment>
+          <equipment>
+            <component id="ID174745">
+              <theequipment xlink:href="urn:uuid:edd87891-3a24-4bde-a19c-db3536997d78" />
+            </component>
+          </equipment>
+          <location>
+            <Elevated id="ID174737" srsName="urn:ogc:def:crs:EPSG::4326">
+              <pos>69.287828 16.141381</pos>
+              <elevation uom="FT">57</elevation>
+            </Elevated>
+          </location>
+        </NavdTimeSlice>
+      </timeSlice>
+    </Navd>
+  </hasMember>
+  <hasMember>
+    <Rway id="RWAY20409">
+      <identifier codeSpace="urn:uuid:">51b9e23b-85c7-46d7-a574-94d73e180836</identifier>
+      <timeSlice>
+        <RwayTimeSlice id="ID1678939">
+          <validTime>
+            <TimePeriod id="ID1678940">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>03 - 21</designator>
+          <type>RW</type>
+          <nominalLength uom="M">1671</nominalLength>
+          <nominalWidth uom="M">45</nominalWidth>
+          <associatedAportHport xlink:href="urn:uuid:95ed6479-3c99-430a-9e08-151b44180ed4" />
+        </RwayTimeSlice>
+      </timeSlice>
+    </Rway>
+  </hasMember>
+  <hasMember>
+    <RwayDirection id="RW329483">
+      <identifier codeSpace="urn:uuid:">411f23d3-9f09-4c0d-b598-65c72f000e13</identifier>
+      <timeSlice>
+        <RwayDirectionTimeSlice id="ID1678942">
+          <validTime>
+            <TimePeriod id="ID1678943">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>03</designator>
+          <usedRway xlink:href="urn:uuid:51b9e23b-85c7-46d7-a574-94d73e180836" />
+        </RwayDirectionTimeSlice>
+      </timeSlice>
+    </RwayDirection>
+  </hasMember>
+  <hasMember>
+    <RwayCentrelinePoint id="RWPT329483">
+      <identifier codeSpace="urn:uuid:">05a3ae9c-6757-43b2-87de-3e53759384ef</identifier>
+      <timeSlice>
+        <RwayCentrelinePointTimeSlice id="ID1678944">
+          <validTime>
+            <TimePeriod id="ID1678945">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>03</designator>
+          <location>
+            <Elevated id="ID1678946" srsName="urn:ogc:def:crs:EPSG::4326">
+              <pos>69.282978 16.127839</pos>
+              <elevation uom="FT">46</elevation>
+              <geoidUndulation uom="FT">116.3</geoidUndulation>
+            </Elevated>
+          </location>
+          <onRway xlink:href="urn:uuid:411f23d3-9f09-4c0d-b598-65c72f000e13" />
+        </RwayCentrelinePointTimeSlice>
+      </timeSlice>
+    </RwayCentrelinePoint>
+  </hasMember>
+  <hasMember>
+    <RwayDirection id="RW329484">
+      <identifier codeSpace="urn:uuid:">fe40c9e1-ba8e-4796-bac5-9735197a80b7</identifier>
+      <timeSlice>
+        <RwayDirectionTimeSlice id="ID1678947">
+          <validTime>
+            <TimePeriod id="ID1678948">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>21</designator>
+          <usedRway xlink:href="urn:uuid:51b9e23b-85c7-46d7-a574-94d73e180836" />
+        </RwayDirectionTimeSlice>
+      </timeSlice>
+    </RwayDirection>
+  </hasMember>
+  <hasMember>
+    <RwayCentrelinePoint id="RWPT329484">
+      <identifier codeSpace="urn:uuid:">5a2ed908-4af6-4e2b-a47f-9144aea302ba</identifier>
+      <timeSlice>
+        <RwayCentrelinePointTimeSlice id="ID1678949">
+          <validTime>
+            <TimePeriod id="ID1678950">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <role>THR</role>
+          <designator>21</designator>
+          <location>
+            <Elevated id="ID1678951" srsName="urn:ogc:def:crs:EPSG::4326">
+              <pos>69.295764 16.149928</pos>
+              <elevation uom="FT">17</elevation>
+              <geoidUndulation uom="FT">116.2</geoidUndulation>
+            </Elevated>
+          </location>
+          <onRway xlink:href="urn:uuid:fe40c9e1-ba8e-4796-bac5-9735197a80b7" />
+        </RwayCentrelinePointTimeSlice>
+      </timeSlice>
+    </RwayCentrelinePoint>
+  </hasMember>
+  <hasMember>
+    <Glide id="I329840">
+      <identifier codeSpace="urn:uuid:">d40fe0df-43c8-443a-b84b-68628164c335</identifier>
+      <timeSlice>
+        <GlideTimeSlice id="ID1678967">
+          <validTime>
+            <TimePeriod id="ID1678968">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>AN</designator>
+          <location>
+            <Elevated id="ID1678966" srsName="urn:ogc:def:crs:EPSG::4326" />
+          </location>
+        </GlideTimeSlice>
+      </timeSlice>
+    </Glide>
+  </hasMember>
+  <hasMember>
+    <Loc id="LOC329840">
+      <identifier codeSpace="urn:uuid:">45d7f45e-648e-45ed-8d78-1c107252c69b</identifier>
+      <timeSlice>
+        <LocTimeSlice id="ID1678971">
+          <validTime>
+            <TimePeriod id="ID1678972">
+              <beginPosition />
+              <endPosition />
+            </TimePeriod>
+          </validTime>
+          <interpretation>BASELINE</interpretation>
+          <designator>AN</designator>
+          <location>
+            <Elevated id="ID1678970" srsName="urn:ogc:def:crs:EPSG::4326">
+              <pos>69.283603 16.158475</pos>
+            </Elevated>
+          </location>
+        </LocTimeSlice>
+      </timeSlice>
+    </Loc>
+  </hasMember>
+</Basic>
